@@ -103,7 +103,7 @@ class ColumnsBlock(blocks.StructBlock):
     def media(self):
         return super().media + forms.Media(css={
             'all': (
-                'wagtailcolumnblocks/columns.css',
-                'wagtailcolumnblocks/custom-wagtail-columns.css',
+                'wagtailcolumnblocks/css/columns.css',
+                'wagtailcolumnblocks/css/custom-wagtail-columns.css',
             ),
         })
